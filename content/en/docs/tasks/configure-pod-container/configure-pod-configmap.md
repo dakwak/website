@@ -578,7 +578,7 @@ Create the Pod:
 kubectl create -f https://kubernetes.io/examples/pods/pod-configmap-volume.yaml
 ```
 
-When the pod runs, the command `ls /etc/config/` produces the output below:
+When the pod runs, the command `cat /etc/config/` produces the output below:
 
 ```shell
 SPECIAL_LEVEL
